@@ -4,6 +4,12 @@ Google Play Console permet de tester et déployer les applications Android.
 
 Pour sortir une application sur le Play Store, il suffit de suivre la documentation fournie par Flutter sur ce sujet : [https://docs.flutter.dev/deployment/android](https://docs.flutter.dev/deployment/android)
 
+#### Les APK et les AAB
+
+Historiquement, les **APK (Android Packages)** étaient le format universel pour les applications Android. Aujourd'hui, ils seront remplacés par des **AAB (Android App Bundle)**. La grande différence entre ces deux format réside lors du téléchargement depuis le Play Store. Télécharger un APK signifie télécharger toutes les ressources disponible (les ressources sont tout ce qui n'est pas du code, comme les images, les fichiers de langue ou le son), alors qu'un AAB construira un APK qui ne contiendra que les ressources dont vous avez besoin. Ainsi, si votre smartphone n'a qu'une résolution HD, vous obtiendrez alors un APK sans ressource 4K. Si vous avez choisi le français et l'anglais comme langue sur votre appareil,  vous ne recevrez pas les ressources pour de l'espagnol.
+
+
+
 L'obfuscation et la minification du code sont par défaut activé lors de la construction de l'AAB et sa mise en tests sur le Google Play Console. L'obfuscation permet de rendre le code difficilement compréhensible pour l'humain tout en étant parfaitement compilable pour l'ordinateur. La minification quand à elle réduit la taille du code, en supprimant les retours à la ligne et l'indentation par exemple. La minification peut être considéré comme de l'obfuscation.&#x20;
 
 L'application se trouve d'abord en tests interne. Ainsi seul les personnes ajouté au groupe de testeurs pourront télécharger l'application via le Play Store.
@@ -12,4 +18,4 @@ Pour que les testeurs puissent avoir accès à l'application, il faut leurs four
 
 ![Interface du Google Play Console](<../../.gitbook/assets/Capture d’écran 2022-06-01 à 13.12.54.png>)
 
-A noter que le nombre à coté de la version ( le 11 dans 11(1.0.0) par exemple) représente le numéro de build et doit être incrémenté manuellement depuis le pubspec.yaml du projet.
+A noter que le nombre à coté de la version (le 11 dans 11(1.0.0) par exemple) représente le numéro de build et doit être incrémenté manuellement depuis le pubspec.yaml du projet.

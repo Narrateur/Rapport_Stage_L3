@@ -17,6 +17,7 @@
 * [Les Tests](ma-mission/les-tests/README.md)
   * [Play Store](ma-mission/les-tests/play-store.md)
   * [App Store](ma-mission/les-tests/app-store.md)
+* [Les API](ma-mission/les-api.md)
 
 ## Bilan
 
