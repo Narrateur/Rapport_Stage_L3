@@ -6,7 +6,7 @@
 
 ### Annexe 2 : Schéma de l'authentification
 
-![](<.gitbook/assets/App\_Authentication (1).jpg>)
+![](.gitbook/assets/Flutter\_app\_authentification.jpg)
 
 ### Annexe 3 : Pages d'authentification
 
@@ -18,7 +18,7 @@
 
 ![](.gitbook/assets/Screenshot\_6.jpg) ![](.gitbook/assets/Screenshot\_9.jpg) ![](.gitbook/assets/Screenshot\_7.jpg) ![Détails de la consommation de données à l'international](.gitbook/assets/Screenshot\_8.jpg)
 
-### Annexe 5: Source Architecture Logicielle <a href="#annexe-5" id="annexe-5"></a>
+### Annexe 5 : Source Architecture Logicielle <a href="#annexe-5" id="annexe-5"></a>
 
 [JSON and serialization](https://docs.flutter.dev/development/data-and-backend/json)
 

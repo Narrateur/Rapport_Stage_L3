@@ -98,6 +98,6 @@ La partie Bloc concerne tout le code permettant de gérer la logique métier. El
 * state : défini ce que peut contenir un State émit par un bloc. Dans notre cas, un State possède un status (état dans lequel la demande se trouve : inProgress, success, failure, ...), un message (en cas d'erreur par exemple), un objet, et une liste d'objet. Les objets en question sont ceux auxquels le bloc est lié (client\_bloc.dart aura un objet et une liste d'objet de Client dans son State).
 * event : défini les évènement qu'il est possible d'ajouter à un bloc. &#x20;
 
-### Source
+### Sources
 
 __[_(cf Annexe 5)_](../annexes.md#annexe-5)__

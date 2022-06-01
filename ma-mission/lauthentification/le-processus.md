@@ -1,8 +1,12 @@
 ---
-description: Comment l'utilisateur s'authentifie ?
+description: Comment l'utilisateur s'authentifie-t-il ?
 ---
 
 # Le processus
+
+Un schéma à donc été réalisé afin de détailler tous les états possible lors de l'authentification :
+
+![Schéma du processus d'authentification](../../.gitbook/assets/Flutter\_app\_authentification.jpg)
 
 Lors du lancement de l'application, celle-ci recherche dans le Secure Storage les informations qui y sont stockés : la AuthKey (clé définitive), la pendingKey (clé qui signifie que l'authentification est toujours en cours), le numéro de téléphone, le authCode (code de validation) et le authCodeTime (date et heure à laquelle le sms contenant le code de validation a été envoyé). A partir des informations récupéré, l'utilisateur est redirigé vers l'étape d'authentification la plus adapté.
 
@@ -18,6 +22,6 @@ Le processus d'authentification se déroule comme suit :
 *   Saisie du code de validation :
 
     L'utilisateur reçu le SMS et saisie le code de validation. Un appel API est fait avec le numéro et la pendingKey stocké localement, et le code de validation saisie. L'API vérifie alors les informations reçu avec celles stockés. Si tous correspond, la pendingKey devient authKey et la authKey est renvoyé, rien sinon. Côté application, si une clé est renvoyé, elle est stocké dans le Secure Storage du téléphone, la pendingKey est supprimé et l'utilisateur est renvoyé sur la « page d'accueil ».
-* Lors de la saisie du code de validation, l'utilisateur a la possibilité de revenir sur la page de saisie du numéro de téléphone. Afin d'éviter que l'utilisateur entre son numéro à plusieurs reprise et reçoive plusieurs messages, un délai de 5 minutes a été ajouté entre l'envoie de 2 SMS.
+* Lors de la saisie du code de validation, l'utilisateur a la possibilité de revenir sur la page de saisie du numéro de téléphone. Afin d'éviter que l'utilisateur entre son numéro à plusieurs reprise et reçoive plusieurs messages, au bout du troisième essai, un délai de 5 minutes a été ajouté entre l'envoie de 2 SMS.
 
 ![Page de saisie du numéro de téléphone](../../.gitbook/assets/Screenshot\_V3\_1.jpg) ![Erreur si l'utilisateur tente de s'envoyer de nouveau un SMS de validation](../../.gitbook/assets/Screenshot\_V3\_2.jpg) ![Page de saisie du code de validation](../../.gitbook/assets/Screenshot\_V3\_3.jpg)
