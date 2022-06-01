@@ -8,13 +8,13 @@ description: Qui sont-ils ?
 
 Depuis 2008, VA Solutions déploie des systèmes de sécurisations wifi, de liaisons fibres et de la téléphonie IP sur tout le territoire national.
 
-Aujourd'hui, VA Solutions devient progressivement VA Telecom en se recentrant sur 3 secteurs prioritaires à destinations des professionnels.
+Aujourd'hui, VA Solutions devient progressivement VA Telecom en se recentrant sur 3 secteurs prioritaires à destinations des professionnels : Fibre, Téléphonie et Wifi Sécurisé.
 
 ![Locaux de VA Telecom](.gitbook/assets/batiment.jpeg)
 
 ## Une équipe de développement
 
-Afin de créer et maintenir leurs outils informatique, VA Telecom se compose d'une équipe de développement. C'est cette équipe qui m'a accueilli durant ce stage :&#x20;
+Afin de créer et maintenir leurs outils informatique, VA Telecom se compose d'une équipe de développement. C'est cette équipe qui m'a de nouveau accueilli durant ce stage :&#x20;
 
 ![Jérôme RICHARD Directeur Technique](.gitbook/assets/jerome-NB.jpeg)
 

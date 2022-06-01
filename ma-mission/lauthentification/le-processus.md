@@ -6,7 +6,7 @@ description: Comment l'utilisateur s'authentifie-t-il ?
 
 Un schéma à donc été réalisé afin de détailler tous les états possible lors de l'authentification :
 
-![Schéma du processus d'authentification](../../.gitbook/assets/Flutter\_app\_authentification.jpg)
+![Schéma du processus d'authentification](<../../.gitbook/assets/App\_Authentication (1).jpg>)
 
 Lors du lancement de l'application, celle-ci recherche dans le Secure Storage les informations qui y sont stockés : la AuthKey (clé définitive), la pendingKey (clé qui signifie que l'authentification est toujours en cours), le numéro de téléphone, le authCode (code de validation) et le authCodeTime (date et heure à laquelle le sms contenant le code de validation a été envoyé). A partir des informations récupéré, l'utilisateur est redirigé vers l'étape d'authentification la plus adapté.
 

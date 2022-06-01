@@ -13,7 +13,7 @@ Afin de valider cette 3ème année d'étude en Licence Informatique (IFA) à l'U
 
 Situé à Saint-Herblain, c'est l'équipe de développement de VA Telecom qui m'accueil une nouvelle fois dans leurs bureaux pour ce stage.
 
-J'ai recontacté VA Telecom pour ce stage car celui que j'ai effectué chez eux en BTS m'a particulièrement plu, étant ma première expérience en entreprise. De plus j'étais un peu frustré de ne pas avoir terminé la mission qui m'a été confié, et lorsque l'on m'a proposé de reprendre le développement de cette application pour ce stage, j'y ai vu une chance de terminer ce que j'ai commencé, même s'il c'est finalement avéré que je recommencerai de zéro, et ce n'est pas plus mal, soyons honnête.&#x20;
+J'ai recontacté VA Telecom pour ce stage car celui que j'ai effectué chez eux en BTS m'a particulièrement plu, étant ma première expérience en entreprise. De plus j'étais un peu frustré de ne pas avoir terminé la mission qui m'a été confié, et lorsque l'on m'a proposé de reprendre le développement de cette application pour ce stage, j'y ai vu une chance de terminer ce que j'ai commencé, même si finalement il s'est avéré que je recommencerai de zéro.&#x20;
 
 ## Mon Stage
 
@@ -43,7 +43,7 @@ J'ai recontacté VA Telecom pour ce stage car celui que j'ai effectué chez eux 
 [conclusion.md](bilan/conclusion.md)
 {% endcontent-ref %}
 
-### Annexe
+### Ressources
 
 {% content-ref url="annexes.md" %}
 [annexes.md](annexes.md)

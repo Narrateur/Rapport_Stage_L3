@@ -8,4 +8,8 @@ L'obfuscation et la minification du code sont par défaut activé lors de la con
 
 L'application se trouve d'abord en tests interne. Ainsi seul les personnes ajouté au groupe de testeurs pourront télécharger l'application via le Play Store.
 
-Pour chaque release, il faut fournir un App Bundle (.aab),&#x20;
+Pour que les testeurs puissent avoir accès à l'application, il faut leurs fournir des release. Ces releases représentent une version de l'application. Lorsque l'on souhaite faire tester notre application, il faut produire un App Bundle. C'est ce fichier en .aab que l'on mettra dan notre release et qui sera ensuite téléchargé par les testeurs via le Play Store.
+
+![Interface du Google Play Console](<../../.gitbook/assets/Capture d’écran 2022-06-01 à 13.12.54.png>)
+
+A noter que le nombre à coté de la version ( le 11 dans 11(1.0.0) par exemple) représente le numéro de build et doit être incrémenté manuellement depuis le pubspec.yaml du projet.

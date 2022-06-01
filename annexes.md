@@ -6,7 +6,7 @@
 
 ### Annexe 2 : Schéma de l'authentification
 
-![](.gitbook/assets/Flutter\_app\_authentification.jpg)
+![](<.gitbook/assets/App\_Authentication (1).jpg>)
 
 ### Annexe 3 : Pages d'authentification
 
