@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Rapport de Stage - L3 IFA](README.md)
+* [Rapport de Stage - L3 IFA - PASTE Théo](README.md)
 * [VA Telecom](va-telecom.md)
 
 ## Ma Mission
