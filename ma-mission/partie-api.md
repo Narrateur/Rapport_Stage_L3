@@ -1,18 +1,18 @@
 # Partie API
 
-Comme le développement Flutter de l'application avançait bien, il m'a été proposé de m'occuper également de la partie authentification sur les API afin que je découvre l'envers du décor.
+Comme le développement Flutter de l'application avançait bien, il m'a été proposé de m'occuper également de la partie API afin que je découvre l'envers du décor.
 
-L'objectif était de définir de nouvelles routes qui seront utilisé par l'application, pour s'authentifier, mais également pour récupérer les informations nécessaire au fonctionnement de l'application.
+L'objectif était de définir de nouvelles routes qui seront utilisé par l'application, pour s'authentifier d'une part, mais également pour récupérer les informations nécessaire au fonctionnement de l'application.
 
 #### L'authentification
 
-Pour l'authentification, il fallait définir 3 routes distinct pour représenter les 3 états possible :&#x20;
+Pour l'authentification, il nous fallait définir 3 routes distinct pour représenter les 3 états possible :&#x20;
 
-* Saisie du numéro : l'utilisateur n'est pas encore authentifié
-* Saisie du code de validation : l'utilisateur doit confirmer son "identité"
-* L'utilisateur c'est déjà authentifié et doit maintenant vérifier l'authenticité de sa clé d'authentification.
+* customer\_mobile\_app/set : l'utilisateur n'est pas encore authentifié. L'API reçoit donc un numéro de téléphone et une pendingKey.
+* customer\_mobile\_app/check : l'utilisateur doit confirmer son "identité". L'API reçoit donc un numéro de téléphone, une pendingKey et un code de validation.
+* customer\_mobile_app_/login : L'utilisateur c'est déjà authentifié et doit maintenant vérifier l'authenticité de sa clé d'authentification. L'API reçoit alors une X-AUTH-MOBILE-KEY dans ces headers.
 
-S'ajoute à cela les routes nécessaire à la récupération des information de l'utilisateur :&#x20;
+S'ajoute à cela les routes nécessaires à la récupération des informations de l'utilisateur :&#x20;
 
 * Récupérer l'abonnement
 * Récupérer les options de l'abonnement
@@ -59,6 +59,6 @@ api_mobile_device_api:
 
 ### API CRM
 
-C'est ici que nos appels de Base de Données seront fait et que les informations voulus seront récupéré et renvoyé.
+C'est ici que nos requêtes de Base de Données seront faites et que les informations voulus seront récupérées et renvoyées.
 
-Puisque API Public ne fait que passer les requêtes à API CRM, celle-ci possède les même routes qu'API Public.
+Puisque API Public ne fait que passer les requêtes à API CRM, celle-ci possède les mêmes routes qu'API Public.

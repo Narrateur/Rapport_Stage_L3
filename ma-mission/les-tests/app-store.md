@@ -2,7 +2,7 @@
 
 L'App Store Connect permet de tester et déployer les applications Apple.
 
-Pour sortir une application sur le Play Store, il suffit de suivre la documentation fournie par Flutter sur ce sujet : [https://docs.flutter.dev/deployment/ios#upload-the-app-bundle-to-app-store-connect](https://docs.flutter.dev/deployment/ios#upload-the-app-bundle-to-app-store-connect)
+Pour tester et déployer une application sur le Play Store, il suffit de suivre la documentation fournie par Flutter sur ce sujet : [https://docs.flutter.dev/deployment/ios#upload-the-app-bundle-to-app-store-connect](https://docs.flutter.dev/deployment/ios#upload-the-app-bundle-to-app-store-connect)
 
 L'application se trouve d'abord en tests interne. Ainsi seul les personnes ajouté au groupe de testeurs pourront télécharger l'application.
 
