@@ -3,7 +3,7 @@ description: Développer une application mobile sur Flutter
 coverY: 0
 ---
 
-# Rapport de Stage - L3 IFA
+# Rapport de Stage - L3 IFA - PASTE Théo
 
 ![](.gitbook/assets/ubo\_2.jpeg) ![](.gitbook/assets/logo\_login.png)
 
@@ -33,8 +33,8 @@ J'ai recontacté VA Telecom pour ce stage car celui que j'ai effectué chez eux 
 [les-outils](ma-mission/les-outils/)
 {% endcontent-ref %}
 
-{% content-ref url="ma-mission/lauthentification/" %}
-[lauthentification](ma-mission/lauthentification/)
+{% content-ref url="ma-mission/partie-flutter/" %}
+[partie-flutter](ma-mission/partie-flutter/)
 {% endcontent-ref %}
 
 ### Bilan

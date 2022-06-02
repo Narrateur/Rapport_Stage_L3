@@ -8,4 +8,4 @@ L'application mobile est développée sous Flutter 2.10.4 et les modifications a
 
 Un Samsung Galaxy S8, un iPhone 6S ainsi qu'une carte SIM de test m'ont été fournie afin de tester l'application.
 
-L'intégralité du stage c'est fait en présentiel, dans le bureaux de l'équipe de développement.
+L'intégralité du stage c'est fait en présentiel, dans les bureaux de l'équipe de développement.

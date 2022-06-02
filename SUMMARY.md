@@ -10,14 +10,14 @@
 * [Les Outils](ma-mission/les-outils/README.md)
   * [Flutter, qu'est ce que c'est ?](ma-mission/les-outils/flutter-quest-ce-que-cest.md)
   * [Bloc, qu'est ce que c'est ?](ma-mission/les-outils/bloc-quest-ce-que-cest.md)
-* [L'Authentification](ma-mission/lauthentification/README.md)
-  * [Comment s'authentifier ?](ma-mission/lauthentification/comment-sauthentifier.md)
-  * [Le processus](ma-mission/lauthentification/le-processus.md)
-* [Les fonctionnalités](ma-mission/les-fonctionnalites.md)
+* [Partie Flutter](ma-mission/partie-flutter/README.md)
+  * [Comment s'authentifier ?](ma-mission/partie-flutter/comment-sauthentifier.md)
+  * [Le processus](ma-mission/partie-flutter/le-processus.md)
+  * [Les fonctionnalités](ma-mission/partie-flutter/les-fonctionnalites.md)
+* [Partie API](ma-mission/partie-api.md)
 * [Les Tests](ma-mission/les-tests/README.md)
   * [Play Store](ma-mission/les-tests/play-store.md)
   * [App Store](ma-mission/les-tests/app-store.md)
-* [Partie API](ma-mission/partie-api.md)
 
 ## Bilan
 

@@ -1,8 +1,6 @@
 # Comment s'authentifier ?
 
-Comment s'authentifier ?
-
-Définir la méthode d'authentification a été un point important au commencement du développement de l'application.&#x20;
+Définir la méthode d'authentification a été un point important au commencement du développement de l'application. Il s'agit du premier processus lancé par l'application, celui qui permettra de récupérer toutes les informations de l'utilisateur.
 
 Le numéro de téléphone de la sim est lié à l'abonnement de l'utilisateur. Connaitre le numéro de téléphone nous permet donc de savoir à qui il appartient. Mais avant ça, comment est organisé le système informatique de VA Telecom ?
 

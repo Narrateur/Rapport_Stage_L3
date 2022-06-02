@@ -14,7 +14,7 @@ Grâce aux Blocs, nous sommes en mesure de produire une application qui réagira
 
 ![Le lieu de déclaration du Bloc agit comme une cascade.](<../../.gitbook/assets/Shéma Bloc.jpg>)
 
-Dans cet exemple, n'importe quelle page peut accéder aux informations des Bloc Client et Consommations. Par contre, la page 2 et les autres pages qui en découle ne peuvent récupérer les informations du Bloc Options. Grâce à Bloc, modifier une information dans le Bloc Client dans la page 5 la modifiera dans toutes les autres.&#x20;
+Dans cet exemple, n'importe quelle page peut accéder aux informations des Bloc Client et Consommations. Par contre, la page 2 et les autres pages qui en découle ne peuvent récupérer les informations du Bloc Options. De plus, grâce à Bloc, modifier une information dans le Bloc Client dans la page 5 la modifiera dans toutes les autres si la ressource Bloc Client est utilisé dans la dite page.&#x20;
 
 #### Un exemple devrait être plus parlant.&#x20;
 
