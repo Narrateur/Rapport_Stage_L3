@@ -6,13 +6,15 @@ description: Qui sont-ils ?
 
 ## Une entreprise de télécommunications
 
-Depuis 2008, VA Solutions devient progressivement une société qui étant son domaine d'activité à tout les axes de communications :thumbsup: wifi sécurisé, liaisons fibre et téléphonies IP et mobile sur tout le territoire national.
+Depuis 2008, VA Solutions déploie des systèmes de sécurisations wifi, de liaisons fibres et de la téléphonie IP sur tout le territoire national.
+
+Aujourd'hui, VA Solutions devient progressivement VA Telecom en se recentrant sur 3 secteurs prioritaires à destinations des professionnels : Fibre, Téléphonie et Wifi Sécurisé.
 
 ![Locaux de VA Telecom](.gitbook/assets/batiment.jpeg)
 
-## L'équipe de développement
+## Une équipe de développement
 
-Afin de créer et maintenir leur infrastructure et leurs outils informatiques, VA Telecom se compose d'une équipe de développement. C'est cette équipe qui m'a de nouveau fait confiance durant ce stage :&#x20;
+Afin de créer et maintenir leurs outils informatique, VA Telecom se compose d'une équipe de développement. C'est cette équipe qui m'a de nouveau accueilli durant ce stage :&#x20;
 
 ![Jérôme RICHARD Directeur Technique](.gitbook/assets/jerome-NB.jpeg)
 
@@ -20,4 +22,5 @@ Afin de créer et maintenir leur infrastructure et leurs outils informatiques, V
 
 ![Emmanuel LOISELET Développeur](.gitbook/assets/emmanuel123.jpeg)
 
-S'ajoute également Max OGER, qui fut mon référent pour le développement de la partie Flutter ainsi que de Baptiste LECAT, actuellement en alternance dans la société, et qui m'a également aidé sur cette partie de mon stage (là où Christophe LE MARC intervenait plutôt sur la partie PHP/Symfony).
+S'ajoute également Max OGER, qui travail avec Baptiste LECAT sur le développement d'applications mobile et qui me servait de référent pour ce qui touchais à Flutter et de Baptiste LECAT, alternant qui fait également du Flutter et qui m'aidais sur cette partie de mon stage (là où Christophe LE MARC intervenais plutôt sur la partie Symfony).
+
