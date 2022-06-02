@@ -14,7 +14,13 @@ L'obfuscation et la minification du code sont par défaut activé lors de la con
 
 L'application se trouve d'abord en tests interne. Ainsi seul les personnes ajouté au groupe de testeurs pourront télécharger l'application via le Play Store.
 
-Pour que les testeurs puissent avoir accès à l'application, il faut leurs fournir des release. Ces releases représentent une version de l'application. Lorsque l'on souhaite faire tester notre application, il faut produire un App Bundle. C'est ce fichier en .aab que l'on mettra dan notre release et qui sera ensuite téléchargé par les testeurs via le Play Store.
+Pour que les testeurs puissent avoir accès à l'application, il faut leurs fournir des release. Ces releases représentent une version de l'application. Lorsque l'on souhaite faire tester notre application, il faut produire un App Bundle. C'est ce fichier en .aab que l'on mettra dan notre release et qui sera ensuite téléchargé par les testeurs via le Play Store. Il est généré via la commande :&#x20;
+
+```
+flutter build appbundle
+```
+
+Il suffit ensuite de créer une release et d'y déposer le fichier en .aab
 
 ![Interface du Google Play Console](<../../.gitbook/assets/Capture d’écran 2022-06-01 à 13.12.54.png>)
 
