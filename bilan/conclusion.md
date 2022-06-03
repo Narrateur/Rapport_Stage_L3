@@ -24,3 +24,12 @@ Comme la première fois, ce stage c'est très bien passé. L'équipe est toujour
 
 Même si j'ai mis un peu de temps à comprendre la notion de Bloc, celui-ci a tout de même permis de développer l'application étonnement rapidement. En effet, l'application était en test au bout d'un peu plus de 5 semaines. La première application était pratiquement terminée au bout des 6 semaines de mon stage mais aurait été très compliquée à maintenir, même pour moi aujourd'hui. Recommencer de zéro était vraiment nécessaire.&#x20;
 
+En plus d'avoir approfondi mes connaissances en Flutter, ce stage m'a fait découvrir la notion de Bloc, et fait utiliser le framework Symfony. Ayant passé relativement peu de temps sur Symfony durant ces 9 semaines, j'ai encore beaucoup à apprendre de ce framework, contrairement à Bloc qui représentait une plus grosse partie de ce stage et avec lequel je me sent plus à l'aise; bien que ne prétend pas l'avoir maîtrisé.
+
+Je tiens à remercier tout VA Telecom pour leur accueil et leur écoute, sans quoi ce stage ne se serait pas aussi bien passé.
+
+
+
+#### Contact
+
+theo.paste@outlook.fr - 0781716543
