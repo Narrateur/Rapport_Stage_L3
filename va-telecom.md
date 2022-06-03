@@ -6,7 +6,7 @@ description: Qui sont-ils ?
 
 ## Une entreprise de télécommunications
 
-Depuis 2008, VA Solutions devient progressivement une société qui étant son domaine d'activité à tout les axes de communications : wifi sécurisé, liaisons fibre et téléphonies IP et mobile sur tout le territoire national.
+Depuis 2008, VA Solutions devient progressivement une société qui étant son domaine d'activité à tout les axes de communications : wifi sécurisé, liaison fibre et téléphonie IP et mobile sur tout le territoire national.
 
 ![Locaux de VA Telecom](.gitbook/assets/batiment.jpeg)
 
