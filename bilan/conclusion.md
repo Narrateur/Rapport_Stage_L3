@@ -12,7 +12,11 @@ L'objectif final du stage était de mettre à disposition l'application sur le P
 * La visualisation du détail de l'abonnement
 * La possibilité de consulter la consommation mensuelle national et international
 
-Actuellement, l'application permet ces 3 points, le contact du support de VA Telecom, elle a été testé sur le Play Store Google et l'App Store Apple, ...
+Actuellement, l'application permet de faire ce qui avait été décidé, mais aussi le contact du support de VA Telecom et la déconnexion.
+
+L'application a été déployée en tests internes afin que les différents membres de l'équipes puissent l'installer et me faire des retours.&#x20;
+
+_Elle est actuellement disponible sur le Play Store et l'App Store?_
 
 ## Ma Conclusion
 
