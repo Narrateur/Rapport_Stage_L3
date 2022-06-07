@@ -2,7 +2,7 @@
 
 Contrairement à la première fois, l'application sera développé en utilisant la notion de Bloc.&#x20;
 
-#### LE BLOC:
+#### LE BLOC :
 
 La programmation par Bloc permet de délocaliser la logique métier dans les Blocs. Bloc fonctionne avec des Events, des Blocs et des States.
 
