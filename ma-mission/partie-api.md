@@ -18,6 +18,8 @@ S'ajoute à cela les routes nécessaires à la récupération des informations d
 * Récupérer les options de l'abonnement
 * Récupérer les metrics de l'abonnement (similaire à un système de tags)
 * Récupérer la consommation de données mensuelle de l'utilisateur
+* Récupérer le produit
+* Récupérer les métrics du produit
 
 ### API Public
 
