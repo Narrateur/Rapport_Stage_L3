@@ -4,7 +4,7 @@ D'un point de vue personnel, il était beaucoup mieux pour tout le monde que je 
 
 ### Architecture Logicielle
 
-![Arborescence](../.gitbook/assets/Arborescence.png)
+![](../.gitbook/assets/Arborescence.png)
 
 ![Les différentes couches](<../.gitbook/assets/Les Couches.png>)
 
@@ -20,7 +20,7 @@ Cette couche est donc indépendante et n'a pas connaissance du traitement réali
 
 Un repository doit être lié à un modèle et permet d'effectuer les opérations CRUD (Create, Read, Update, Delete) de ce dernier. Il permet de contacter une et une seul source de données.
 
-La convention de nommage est la suivante : \<Modèle>\__repository (ex: client\_repository)._&#x20;
+La convention de nommage est la suivante : \<Modèle>\__repository (ex: client\_repository)._
 
 Les fonctions à implémenter seront donc les suivantes:
 
@@ -29,7 +29,7 @@ Les fonctions à implémenter seront donc les suivantes:
 * insert()
 * update()
 * patch() _non implémenté pour le moment_
-* remove()&#x20;
+* remove()
 
 Afin d'assurer la conformité de ces fonctions et leur signature, il est préférable d'étendre les classes Repository d'une classe abstraite décrivant l'implémentation de ces dernières (base\_repository.dart)
 
@@ -64,13 +64,13 @@ Ces classes sont le résultat de la désérialisation des données récupérés 
 
 Les sous-collections d'un model ne sont pas désérialisées et devront être récupérées autrement.
 
-#### Classe immutable :&#x20;
+#### Classe immutable :
 
-Il est nécessaire que les classes model possèdent des attributs _**final**_. En effet, ces dernières ne sont que la représentation direct de la données brute et ne doivent donc pas pouvoir être modifiées.&#x20;
+Il est nécessaire que les classes model possèdent des attributs _**final**_. En effet, ces dernières ne sont que la représentation direct de la données brute et ne doivent donc pas pouvoir être modifiées.
 
 #### Sérialisation / Désérialisation
 
-Le processus de gestion du format JSON n'est plus géré par le développeur. Grâce aux annotations JsonSerializable et au package build\_runner, les fonctions fromJson et toJson sont générées via les attributs de la classe créée par le développeur. [_(cf Annexe 5)_](../annexes.md#annexe-5-serialization-deserialisation)__
+Le processus de gestion du format JSON n'est plus géré par le développeur. Grâce aux annotations JsonSerializable et au package build\_runner, les fonctions fromJson et toJson sont générées via les attributs de la classe créée par le développeur. [_(cf Annexe 5)_](../annexes.md#annexe-5-serialization-deserialisation)\_\_
 
 ### Couche DOMAIN
 
@@ -84,7 +84,7 @@ Les entités sont chargées d'implémenter les méthodes de logique métier perm
 
 #### Feature
 
-Une Feature correspond à n'importe quelle partie de l'application que le développeur juge suffisamment importante en terme :&#x20;
+Une Feature correspond à n'importe quelle partie de l'application que le développeur juge suffisamment importante en terme :
 
 * d'intérêt : Certaines feature peuvent être considérées comme importantes dans le cadre de l'application, car elles représentent des besoins exprimés par le métier.
 * de quantité de code : Il est parfois intéressant durant le période de re-factorisation de séparer certaines parties jugé trop verbeuse, afin de rendre le code plus lisible.
@@ -92,12 +92,12 @@ Une Feature correspond à n'importe quelle partie de l'application que le dével
 
 #### Bloc
 
-La partie Bloc concerne tout le code permettant de gérer la logique métier. Elle est divisé en 3 partie :&#x20;
+La partie Bloc concerne tout le code permettant de gérer la logique métier. Elle est divisé en 3 partie :
 
-* event : défini les évènement qu'il est possible d'ajouter à un bloc. &#x20;
+* event : défini les évènement qu'il est possible d'ajouter à un bloc.
 * bloc : appel les repository de la couche DOMAIN et émet des State qui serviront à stocker les résultats du travail demandé.
 * state : défini ce que peut contenir un State émit par un bloc (le state sera défini un peu plus loin)
 
 ### Sources
 
-__[_(cf Annexe 5)_](../annexes.md#annexe-5)__
+[_**(cf Annexe 5)**_](../annexes.md#annexe-5)
