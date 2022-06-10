@@ -6,7 +6,7 @@
 
 ### Annexe 2 : Schéma de l'authentification
 
-![](<.gitbook/assets/App\_Authentication (1).jpg>)
+![](.gitbook/assets/Flutter\_app\_authentification.jpg)
 
 ### Annexe 3 : Pages d'authentification
 
@@ -31,8 +31,6 @@
 [Open E-commerce App](https://github.com/4seer/openflutterecommerceapp)
 
 [Getting Started with Bloc](https://bloclibrary.dev/#/gettingstarted)
-
-
 
 ### Lien Utile
 
