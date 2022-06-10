@@ -23,7 +23,7 @@ S'ajoute à cela les routes nécessaires à la récupération des informations d
 
 ### API Public
 
-Dans notre cas, le but de l'API Public est tout simplement de passer le relais à l'API CRM (interne et non accessible depuis l'exterieur) tout en vérifiant que toutes les informations nécessaires ont été fournie. En l'occurence des paramètres tels que le numéro de téléphone, la clé ou le code de validation dans le cas de l'authentification ou des headers comme la clé d'authentification ou la clé API, clé API qui est nécessaire pour toutes les communications avec celle-ci (la clé API permet à l'API de savoir d'où viens la personne qui lui demande des ressources. Ici la personne viendra de l'application mobile VA Telecom).
+Dans notre cas, le but de l'API Public est tout simplement de passer le relais à l'API CRM (interne et non accessible depuis l'exterieur) tout en vérifiant que toutes les informations nécessaires ont été fournie. En l'occurence des paramètres tels que le numéro de téléphone, la clé ou le code de validation dans le cas de l'authentification ou des headers comme la clé d'authentification ou la clé API, clé API qui est nécessaire pour toutes les communications avec celle-ci (la clé API permet à l'API de savoir d'où viens la personne qui lui demande des ressources. Ici la personne viendra de l'application mobile VA Solutions).
 
 ```
 api_mobile_device_set:

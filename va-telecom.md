@@ -2,17 +2,17 @@
 description: Qui sont-ils ?
 ---
 
-# VA Telecom
+# VA Solutions
 
 ## Une entreprise de télécommunications
 
 Depuis 2008, VA Solutions devient progressivement une société qui étend son domaine d'activité à tout les axes de communications : wifi sécurisé, liaison fibre et téléphonie IP et mobile sur tout le territoire national.
 
-![Locaux de VA Telecom](.gitbook/assets/batiment.jpeg)
+![Locaux de VA Solutions](.gitbook/assets/batiment.jpeg)
 
 ## L'équipe de développement
 
-Afin de créer et maintenir leur infrastructure et leurs outils informatiques, VA Telecom se compose d'une équipe de développement. C'est cette équipe qui m'a de nouveau fait confiance durant ce stage :&#x20;
+Afin de créer et maintenir leur infrastructure et leurs outils informatiques, VA Solutions se compose d'une équipe de développement. C'est cette équipe qui m'a de nouveau fait confiance durant ce stage :
 
 ![Jérôme RICHARD Directeur Technique](.gitbook/assets/jerome-NB.jpeg)
 

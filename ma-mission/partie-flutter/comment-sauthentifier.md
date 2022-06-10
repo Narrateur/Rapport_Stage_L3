@@ -2,9 +2,9 @@
 
 Définir la méthode d'authentification a été un point important lors du développement. Il s'agit du premier processus lancé par l'application, celui qui permettra de récupérer toutes les informations de l'utilisateur et vérifier que celui-ci peut avoir accès aux données de l'abonnement.
 
-Le numéro de téléphone rattaché à la sim est lié à l'abonnement de l'utilisateur. Connaitre le numéro de téléphone nous permet donc de savoir à qui il appartient. Mais avant ça, comment est organisé le système informatique de VA Telecom ?
+Le numéro de téléphone rattaché à la sim est lié à l'abonnement de l'utilisateur. Connaitre le numéro de téléphone nous permet donc de savoir à qui il appartient. Mais avant ça, comment est organisé le système informatique de VA Solutions ?
 
-![Schéma des API de VA TELECOM](<../../.gitbook/assets/Schema API.jpg>)
+![Schéma des API de VA Solutions](<../../.gitbook/assets/Schema API.jpg>)
 
 Tous ce qui vient de l'extérieur n'a accès qu'à l'API Public. Elle vérifie quel type d'utilisateur nous sommes et passe le relais à l'API interne concernée. Puisque l'utilisateur ne s'authentifiera pas avec un couple identifiant/mot de passe, il faudra donc effectuer quelques ajouts aux API concernées.
 
@@ -17,7 +17,7 @@ Sur le papier, la première solution semble meilleure. L'utilisateur ne fait rie
 
 Cependant elle soulève quelques problèmes :
 
-1. Afin d'envoyer automatiquement un SMS ou d'effectuer l'appel API, il faut récupérer le numéro de téléphone (pour le SMS ou pour le paramètre de l'appel API). Il existe des packages Flutter qui permettent de récupérer les informations de la carte SIM, cependant, iOS devient de plus en plus restrictif concernant les informations liées aux terminaux et risque d'émécher l'application de fonctionner. De manière générale, il n'est pas ou difficilement possible de récupérer ces informations sur iOS.&#x20;
-2. L'envoie automatique de SMS n'est plus possible. Flutter a évolué et ne permet plus ce genre d'automatisme. L'option la plus proche serait d'ouvrir l'application d'envoie de SMS par défaut du téléphone, avec un message pré-remplie, mais cela nuirait à l'expérience utilisateur.&#x20;
+1. Afin d'envoyer automatiquement un SMS ou d'effectuer l'appel API, il faut récupérer le numéro de téléphone (pour le SMS ou pour le paramètre de l'appel API). Il existe des packages Flutter qui permettent de récupérer les informations de la carte SIM, cependant, iOS devient de plus en plus restrictif concernant les informations liées aux terminaux et risque d'émécher l'application de fonctionner. De manière générale, il n'est pas ou difficilement possible de récupérer ces informations sur iOS.
+2. L'envoie automatique de SMS n'est plus possible. Flutter a évolué et ne permet plus ce genre d'automatisme. L'option la plus proche serait d'ouvrir l'application d'envoie de SMS par défaut du téléphone, avec un message pré-remplie, mais cela nuirait à l'expérience utilisateur.
 
 Puisque l'application doit être disponible pour Android **et** iOS, c'est donc la 2ème solution qui à été choisie. Le processus peut être un peu plus long, mais il est simple et réalisable et n'émèchera pas son fonctionnement malgré les possibles évolutions des OS.
